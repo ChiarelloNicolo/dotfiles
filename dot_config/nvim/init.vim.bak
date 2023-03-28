@@ -1,0 +1,10 @@
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+set clipboard+=unnamedplus
+let &packpath = &runtimepath
+call plug#begin()
+Plug 'nvim-tree/nvim-tree.lua'
+Plug 'nvim-tree/nvim-web-devicons'
+Plug 'romgrk/barbar.nvim'
+call plug#end()
+lua require("nvim-tree").setup()
+source ~/.vimrc
