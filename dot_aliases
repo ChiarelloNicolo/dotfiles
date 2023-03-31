@@ -25,4 +25,5 @@ alias c=clear
 alias sudo="doas"
 alias snapshots="swallow doas timeshift-gtk"
 alias sudoedit="doas nvim"
-
+alias lxappearance="swallow doas lxappearance"
+alias vimdiff="nvim -d"

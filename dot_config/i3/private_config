@@ -145,6 +145,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 for_window [title="i3_help"] floating enable sticky enable border normal
 for_window [class="Nitrogen"] floating enable sticky enable border normal
 for_window [class="Pavucontrol"] floating enable
+for_window [class="Lxappearance"] floating enable
 
 
 # switch to workspace with urgent window automatically
