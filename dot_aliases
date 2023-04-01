@@ -1,10 +1,3 @@
-alias zshconfig="lvim ~/.zshrc"
-alias ohmyzsh="lvim ~/.oh-my-zsh"
-alias i3config="lvim ~/.config/i3/config"
-alias polybarconfig="lvim ~/.config/polybar/"
-alias starshipconfig="lvim ~/.config/starship.toml"
-alias lvimconfig="lvim ~/.config/lvim/config.lua"
-alias aliases="lvim $HOME/.aliases"
 alias screenshot="scrot ~/Screenshots/%Y-%m-%d-%T-screenshot.png"
 alias ls='lsd'
 alias la='lsd -A'
@@ -27,3 +20,4 @@ alias snapshots="swallow doas timeshift-gtk"
 alias sudoedit="doas nvim"
 alias lxappearance="swallow doas lxappearance"
 alias vimdiff="nvim -d"
+alias dotfiles="lvim -f $HOME/.local/share/chezmoi/"

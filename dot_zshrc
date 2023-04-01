@@ -68,8 +68,7 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git zsh-autosuggestions archlinux pip sudo tmux zsh-syntax-highlighting zsh-vim-mode)
-
+plugins=(git zsh-autosuggestions archlinux tmux zsh-syntax-highlighting zsh-vim-mode sudo)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
